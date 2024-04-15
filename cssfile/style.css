@@ -1,0 +1,156 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    margin: 0px 20px ;
+}
+.right
+{
+    display: flex;
+}                                                                   
+.right img
+{
+    width: 80px;
+}
+.right i
+{
+    padding: 12px 10px 10px 10px;
+}
+header i
+{
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.801);
+    border-radius: 50px;
+    font-size: 16px;
+}
+header i:hover
+{
+    background-color: rgba(221, 221, 221, 0.685);
+}
+.center input
+{
+    border: 1px solid rgb(158, 157, 157);
+    border-radius: 40px;
+    padding: 5px 100px;
+}
+.center button
+{
+    margin-left: -50px;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.options
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 10px;
+    margin-left: 150px;
+    
+}
+.options a
+{
+    text-decoration: none;
+    color: black;
+    background-color:rgba(221, 221, 221, 0.685) ;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: small;
+    transition: 0.4s ease;
+}
+.options a:hover
+{
+    background-color: rgb(2, 2, 2);
+    color: aliceblue;
+}
+.barlist
+{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    position: fixed;
+    width: 150px;
+    height: 100%;
+    margin-top: -70px;
+
+}
+.barlist h3
+{
+    margin-bottom: 20px;
+}
+.barlist a
+{
+    color: rgba(0, 0, 0, 0.945);
+}
+.barlist p
+{
+    padding-bottom: 20px;
+    transition: 0.3s ease-in;
+}
+.barlist p:hover
+{
+    background-color: rgb(201, 202, 202);
+}
+.barlist i
+{
+    padding: 5px;
+}
+.barlist .you
+{
+    margin-top: 20px;
+}
+.videos
+{
+    text-align: center;
+    padding: 10px;
+}
+.videos .card
+{
+    border-radius: 20px;
+    transition: 0.3s ease-in;
+    width: 200px;
+    height: 30vh;
+    padding: 30px 30px;
+    display: inline-block;
+    margin: 10px;
+    
+}
+.videos .card:hover
+{
+    background-color:rgba(221, 221, 221, 0.685) ;
+    font-size: 17px;
+}
+.videos .card i
+{
+    font-size: 80px;
+}
+.videos .card p
+{
+    margin-top:30px ;
+}
+.videos a
+{
+    color: rgb(11, 11, 87);
+    text-decoration: none;
+    font-size: small;
+    transition: 0.3s ease-in;
+}
+.videos a:hover
+{
+    background-color:rgba(179, 175, 175, 0.685) ;
+    padding: 3.5px;
+    border-radius: 20px;
+}
+.videos .card h6
+{
+    color: rgba(8, 16, 41, 0.459);
+    margin-top: 10px;
+}
+
